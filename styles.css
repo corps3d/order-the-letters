@@ -7,7 +7,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 20px 0px;
-    width: 300px;
 }
 
 .heading {
@@ -19,7 +18,7 @@ body {
     flex-wrap: wrap;
 }
 
-.option {
+/* .option {
     width: 50px;
     height: 60px;
     display: flex;
@@ -32,6 +31,22 @@ body {
     border-radius: 5px;
     -webkit-user-select: none;
     user-select: none;
+} */
+
+.option {
+    width:90px;
+    height:70px;
+    /* font-weight: 700; */
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    color: white;
+    background-color: rgb(43, 43, 209);
+    border-radius: 5px;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .answer-boxes {
@@ -40,8 +55,8 @@ body {
 }
 
 .blank-box {
-    width: 50px;
-    height: 60px;
+    width: 90px;
+    height: 70px;
     margin: 5px;
     display: flex;
     align-items: center;
